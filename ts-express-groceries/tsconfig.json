@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "removeComments": true,
+
+    // decorator support
+    "allowSyntheticDefaultImports": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [".git", "node_modules"]
+}
